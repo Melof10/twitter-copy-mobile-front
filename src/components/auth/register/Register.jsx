@@ -5,11 +5,18 @@ import { styles } from './styles';
 const Register = () => {    
     return (
         <View style={styles.container}>
-            <Text style={styles.logo}>Twitter Copy</Text>
+            <Text style={styles.logo}>Twitter Copy</Text>            
             <View style={styles.inputView} >
                 <TextInput  
                     style={styles.inputText}
                     placeholder="Email..." 
+                    placeholderTextColor="#003f5c"            
+                />
+            </View>
+            <View style={styles.inputView} >
+                <TextInput  
+                    style={styles.inputText}
+                    placeholder="Nombre Completo..." 
                     placeholderTextColor="#003f5c"            
                 />
             </View>

@@ -18,8 +18,7 @@ const Login = () => {
                     secureTextEntry
                     style={styles.inputText}
                     placeholder="Password..." 
-                    placeholderTextColor="#003f5c"
-                    onChangeText={text => this.setState({password:text})}
+                    placeholderTextColor="#003f5c"                    
                 />
             </View>        
             <TouchableOpacity style={styles.loginBtn}>
